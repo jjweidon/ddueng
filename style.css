@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding-top: 110px;
+}
+
+h1 {
+    background-color: beige;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+    padding: 25px;
+    border-bottom: 2px gray solid;
+    position: fixed;
+}
+
+.content {
+    height: 200px;
+    margin: 20px;
+}
+
+#game {
+    background-color: aqua;
+}
+
+#vote {
+    background-color: pink;
+}
+
+#awards {
+    background-color: blueviolet;
+}
+
+.pig-box {
+    background-color: sandybrown;
+    height: 150px;
+
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.player {
+    background-color: beige;
+    width: 100px; height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+}
